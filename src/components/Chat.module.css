@@ -1,0 +1,49 @@
+.chat {
+  padding: 8px;
+}
+
+.userDetails {
+  display:  flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.threadBlock {
+  display:  flex;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.userDetails img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.threadLine {
+  border-left: 2px solid #aaa;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.threadLine:hover {
+  border-left: 2px solid darkcyan;
+}
+
+.userDetails p {
+  margin: 0;
+}
+
+.threadBlock {
+  padding-top: 8px;
+}
+
+.expandIcon {
+  cursor: pointer;
+  color: coral;
+}
+
+.text {
+  padding-left: 16px;
+}
